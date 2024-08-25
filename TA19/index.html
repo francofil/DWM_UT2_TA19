@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Lista de Personas</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form id="formulario">
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <p id="errorNombre" class="error"></p>
+        </div>
+        <div class="campo">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password">
+            <p id="errorPassword" class="error"></p>
+        </div>
+        <div class="campo">
+            <label for="mail">Correo electrónico:</label>
+            <input type="text" id="mail">
+            <p id="errorMail" class="error"></p>
+        </div>
+        <input type="button" id="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
